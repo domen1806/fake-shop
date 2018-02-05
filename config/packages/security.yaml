@@ -1,0 +1,21 @@
+security:
+    providers:
+        in_memory:
+            memory:
+                users:
+                    Dominik:
+                        password: $2y$12$YM2S3c8vzjMa6Hy1Af4s/ekEMAaXnDxm0lBTOAMKQL2EHJmDwRMU2
+                        roles: 'ROLE_ADMIN'
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        main:
+            anonymous: ~
+            http_basic: ~
+    access_control:
+        - { path: ^/admin, roles: ROLE_ADMIN }
+    encoders:
+        Symfony\Component\Security\Core\User\User:
+            algorithm: bcrypt
+            cost: 12
