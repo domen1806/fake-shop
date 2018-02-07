@@ -38,3 +38,16 @@ services:
         class: App\Repository\ProductRepository
         arguments:
             - '@doctrine'
+
+    doctine.products:
+        class: App\Infrastructure\DoctrineProducts
+        arguments:
+            - '@doctrine.orm.default_entity_manager'
+
+    set.new_product.handler:
+        class: App\Application\Command\Product\SetNewProductHandler
+        arguments:
+            - '@doctine.products'
+        tags:
+            - { name: 'command_handler', handles: App\Application\Command\Product\SetNewProduct }
+        public: true

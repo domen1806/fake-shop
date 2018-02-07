@@ -1,0 +1,25 @@
+App\Domain\Product:
+    type: entity
+    table: product
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 255
+            unique: false
+            nullable: false
+        description:
+            type: text
+            unique: false
+            nullable: false
+        price:
+            type: float
+            unique: false
+            nullable: false
+        createdAt:
+            type: datetime
+            unique: false
+            nullable: false
