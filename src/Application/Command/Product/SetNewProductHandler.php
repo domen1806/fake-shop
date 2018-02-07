@@ -2,6 +2,7 @@
 
 namespace App\Application\Command\Product;
 
+use App\Application\Mail\SwiftMailerSender;
 use App\Domain\Product;
 use App\Infrastructure\DoctrineProducts;
 
@@ -13,11 +14,18 @@ final class SetNewProductHandler
     private $products;
 
     /**
-     * @param DoctrineProducts $products
+     * @var SwiftMailerSender
      */
-    public function __construct(DoctrineProducts $products)
+    private $sender;
+
+    /**
+     * @param DoctrineProducts  $products
+     * @param SwiftMailerSender $sender
+     */
+    public function __construct(DoctrineProducts $products, SwiftMailerSender $sender)
     {
         $this->products = $products;
+        $this->sender   = $sender;
     }
 
     /**
@@ -32,6 +40,6 @@ final class SetNewProductHandler
         );
 
         $this->products->addProduct($product);
-        //todo dorobic tutaj wysylke maila
+        $this->sender->sendAddProductMessage('Hey! New product was just added!', 'info@fake-shop.com', 'fake@example.com', $command->getName());
     }
 }

@@ -48,6 +48,13 @@ services:
         class: App\Application\Command\Product\SetNewProductHandler
         arguments:
             - '@doctine.products'
+            - '@swiftmailer.sender'
         tags:
             - { name: 'command_handler', handles: App\Application\Command\Product\SetNewProduct }
         public: true
+
+    swiftmailer.sender:
+        class: App\Application\Mail\SwiftMailerSender
+        arguments:
+            - '@swiftmailer.mailer'
+            - '@twig'

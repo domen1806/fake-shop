@@ -4,6 +4,7 @@ namespace App\Tests\Application\Command\Product;
 
 use App\Application\Command\Product\SetNewProduct;
 use App\Application\Command\Product\SetNewProductHandler;
+use App\Application\Mail\SwiftMailerSender;
 use App\Infrastructure\DoctrineProducts;
 use PHPUnit\Framework\TestCase;
 use \Mockery as m;
@@ -26,7 +27,7 @@ class SetNewProductHandlerTest extends TestCase
         $command = $this->getMockedCommand();
         $command
             ->shouldReceive('getName')
-            ->once()
+            ->twice()
             ->andReturn('Glasses');
         $command
             ->shouldReceive('getDescription')
@@ -42,7 +43,13 @@ class SetNewProductHandlerTest extends TestCase
             ->shouldReceive('addProduct')
             ->once();
 
-        $handler = new SetNewProductHandler($doctrineProducts);
+        $sender = $this->getMockedSender();
+        $sender
+            ->shouldReceive('sendAddProductMessage')
+            ->once()
+            ->withArgs(['Hey! New product was just added!', 'info@fake-shop.com', 'fake@example.com', 'Glasses']);
+
+        $handler = new SetNewProductHandler($doctrineProducts, $sender);
         $handler->handle($command);
     }
 
@@ -60,6 +67,14 @@ class SetNewProductHandlerTest extends TestCase
     private function getMockedCommand()
     {
         return m::mock(SetNewProduct::class);
+    }
+
+    /**
+     * @return m\MockInterface|SwiftMailerSender
+     */
+    private function getMockedSender()
+    {
+        return m::mock(SwiftMailerSender::class);
     }
 
     /**
