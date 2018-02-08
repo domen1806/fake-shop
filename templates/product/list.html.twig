@@ -1,25 +1,17 @@
-{# total items count #}
-<div class="count">
-    {{ pagination.getTotalItemCount }}
-</div>
-<table>
-    <tr>
-        {# sorting of properties based on query components #}
-        <th>{{ knp_pagination_sortable(pagination, 'Id', 'a.id') }}</th>
-        <th{% if pagination.isSorted('a.Title') %} class="sorted"{% endif %}>{{ knp_pagination_sortable(pagination, 'Title', 'a.title') }}</th>
-        <th>{{ knp_pagination_sortable(pagination, 'Release', ['a.date', 'a.time']) }}</th>
-    </tr>
+{% extends 'base.html.twig' %}
+{% block headline %}<h1 style="margin:auto; padding-bottom:1%">Lista dostępnych produktów</h1>{% endblock headline %}
+{% block body %}
+    <table>
+        {% for product in pagination %}
+            <tr {% if loop.index is odd %}class="color"{% endif %}>
+                <td>{{ product.name }}</td>
+                <td>{{ product.createdAt | date('Y-m-d H:i:s') }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <div class="navigation">
+        {{ knp_pagination_render(pagination) }}
+    </div>
+    <a style="font-style: italic; font-weight: bold" href="{{ url('new_product') }}">Dodaj nowy produkt</a>
 
-    {# table body #}
-    {% for product in pagination %}
-        <tr {% if loop.index is odd %}class="color"{% endif %}>
-            <td>{{ product.id }}</td>
-            <td>{{ product.name }}</td>
-            <td>{{ product.createdAt | date('Y-m-d') }}</td>
-        </tr>
-    {% endfor %}
-</table>
-{# display navigation #}
-<div class="navigation">
-    {{ knp_pagination_render(pagination) }}
-</div>
+{% endblock body %}
