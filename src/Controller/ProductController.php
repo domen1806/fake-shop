@@ -8,6 +8,7 @@ use App\Form\ProductType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\Routing\Annotation\Route;
 
 class ProductController extends Controller
@@ -39,6 +40,9 @@ class ProductController extends Controller
 
     /**
      * @Route("/admin/new-product", name="new_product")
+     *
+     * @param Request $request
+     * @return RedirectResponse|Response
      */
     public function addProductAction(Request $request)
     {
