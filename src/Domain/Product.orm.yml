@@ -19,6 +19,11 @@ App\Domain\Product:
             type: float
             unique: false
             nullable: false
+        currency:
+            type: string
+            length: 3
+            unique: false
+            nullable: false
         createdAt:
             type: datetime
             unique: false

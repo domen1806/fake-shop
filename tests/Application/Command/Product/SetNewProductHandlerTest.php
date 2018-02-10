@@ -49,7 +49,7 @@ class SetNewProductHandlerTest extends TestCase
             ->once()
             ->withArgs(['Hey! New product was just added!', 'info@fake-shop.com', 'fake@example.com', 'Glasses']);
 
-        $handler = new SetNewProductHandler($doctrineProducts, $sender);
+        $handler = new SetNewProductHandler($doctrineProducts, $sender, 'pl_PL');
         $handler->handle($command);
     }
 

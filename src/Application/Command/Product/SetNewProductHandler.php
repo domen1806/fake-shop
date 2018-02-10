@@ -19,13 +19,20 @@ final class SetNewProductHandler
     private $sender;
 
     /**
+     * @var string
+     */
+    private $localeName;
+
+    /**
      * @param DoctrineProducts  $products
      * @param SwiftMailerSender $sender
+     * @param string            $localeName
      */
-    public function __construct(DoctrineProducts $products, SwiftMailerSender $sender)
+    public function __construct(DoctrineProducts $products, SwiftMailerSender $sender, string $localeName)
     {
-        $this->products = $products;
-        $this->sender   = $sender;
+        $this->products   = $products;
+        $this->sender     = $sender;
+        $this->localeName = $localeName;
     }
 
     /**
@@ -33,10 +40,15 @@ final class SetNewProductHandler
      */
     public function handle(SetNewProduct $command)
     {
+        setlocale( LC_ALL,  $this->localeName);
+        $localeInfo = localeconv();
+        $currency = empty($localeInfo['int_curr_symbol']) ? 'PLN' : $localeInfo['int_curr_symbol'];
+
         $product = new Product(
             $command->getName(),
             $command->getDescription(),
-            $command->getPrice()
+            $command->getPrice(),
+            $currency
         );
 
         $this->products->addProduct($product);

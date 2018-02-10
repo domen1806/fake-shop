@@ -20,6 +20,11 @@ final class Product
     private $price;
 
     /**
+     * @var string
+     */
+    private $currency;
+
+    /**
      * @var int
      */
     private $id;
@@ -33,12 +38,14 @@ final class Product
      * @param string $name
      * @param string $description
      * @param float  $price
+     * @param string $currency
      */
-    public function __construct(string $name, string $description, float $price)
+    public function __construct(string $name, string $description, float $price, string $currency)
     {
         $this->name        = $name;
         $this->description = $description;
         $this->price       = $price;
         $this->createdAt   = new \DateTime();
+        $this->currency    = $currency;
     }
 }

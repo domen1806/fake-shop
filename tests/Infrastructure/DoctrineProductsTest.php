@@ -23,7 +23,7 @@ class DoctrineProductsTest extends TestCase
      */
     public function testAddProduct()
     {
-        $product = new Product('Really good stuff', 'Awesome description', 99.99);
+        $product = new Product('Really good stuff', 'Awesome description', 99.99, 'PLN');
 
         $em = $this->getMockedEntityManager();
         $em

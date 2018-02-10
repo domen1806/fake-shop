@@ -6,6 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\ProductRepository")
+ * @ORM\Table(indexes={@ORM\Index(name="currency_idx", columns={"currency"})})
  * @ORM\HasLifecycleCallbacks
  */
 class Product
@@ -31,6 +32,11 @@ class Product
      * @ORM\Column(type="decimal")
      */
     private $price;
+
+    /**
+     * @ORM\Column(type="string", length=3)
+     */
+    private $currency;
 
     /**
      * @ORM\Column(type="datetime")
@@ -91,6 +97,22 @@ class Product
     public function getPrice()
     {
         return $this->price;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCurrency()
+    {
+        return $this->currency;
+    }
+
+    /**
+     * @param mixed $currency
+     */
+    public function setCurrency($currency)
+    {
+        $this->currency = $currency;
     }
 
     /**

@@ -5,6 +5,8 @@
         {% for product in pagination %}
             <tr {% if loop.index is odd %}class="color"{% endif %}>
                 <td>{{ product.name }}</td>
+                <td>{{ product.price }}</td>
+                <td>{{ product.currency }}</td>
                 <td>{{ product.createdAt | date('Y-m-d H:i:s') }}</td>
             </tr>
         {% endfor %}
