@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da529a32-1c55-41bb-9c5b-6be010c15ce5" name="Default" comment="" />
+    <list default="true" id="12465c8d-85d9-467a-b94f-aba6887c2f30" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/fake-shop.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/symfony2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="5ddc84b8-3783-4fbc-a6ad-83c9695ba3fd" name="Do not pull" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +19,119 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="phpunit.xml.dist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env.dist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env.dist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'tag'</find>
+      <find>EUR</find>
+      <find>getTypes</find>
+      <find>stra</find>
+      <find>setGlobalBasename('global')</find>
+      <find>symfony/swiftmailer-bundle</find>
+      <find>symfony/swiftmailer-</find>
+      <find>symfony/swiftmailer</find>
+      <find>swiftmailer</find>
+      <find>-&gt;setFrom(</find>
+      <find>render</find>
+      <find>fake</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
+        <option value="$PROJECT_DIR$/src/Entity/Product.php" />
+        <option value="$PROJECT_DIR$/templates/product/add_product.html.twig" />
+        <option value="$PROJECT_DIR$/src/Form/ProductType.php" />
+        <option value="$PROJECT_DIR$/vendor/simple-bus/symfony-bridge/tests/bootstrap.php" />
+        <option value="$PROJECT_DIR$/src/Application/Command/Product/SetNewProduct.php" />
+        <option value="$PROJECT_DIR$/tests/Application/Command/Product/SetNewProductTest.php" />
+        <option value="$PROJECT_DIR$/tests/Application/Command/Product/SetNewProductHandler.php" />
+        <option value="$PROJECT_DIR$/tests/Application/Domain/Product.php" />
+        <option value="$PROJECT_DIR$/tests/Application/Domain/ProductTest.php" />
+        <option value="$PROJECT_DIR$/src/Application/Domain/Product.php" />
+        <option value="$PROJECT_DIR$/tests/Domain/ProductTest.php" />
+        <option value="$PROJECT_DIR$/tests/Infrastructure/DoctrineProducts.php" />
+        <option value="$PROJECT_DIR$/tests/Infrastructure/DoctrineProductsTest.php" />
+        <option value="$PROJECT_DIR$/src/Infrastructure/DoctrineProducts.php" />
+        <option value="$PROJECT_DIR$/config/packages/doctrine.yaml" />
+        <option value="$PROJECT_DIR$/src/Entity/Product.orm.yml" />
+        <option value="$PROJECT_DIR$/src/Domain/Product.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Product.orm.yml" />
+        <option value="$PROJECT_DIR$/src/Mail/Sender.php" />
+        <option value="$PROJECT_DIR$/tests/Mail/SenderTest.php" />
+        <option value="$PROJECT_DIR$/src/Mail/SenderInterface.php" />
+        <option value="$PROJECT_DIR$/templates/mail/addProduct.html.twig" />
+        <option value="$PROJECT_DIR$/tests/Mail/SwiftMailerSenderTest.php" />
+        <option value="$PROJECT_DIR$/src/Mail/SwiftMailerSender.php" />
+        <option value="$PROJECT_DIR$/src/Application/Mail/SenderInterface.php" />
+        <option value="$PROJECT_DIR$/config/services.yaml" />
+        <option value="$PROJECT_DIR$/src/Application/Command/Product/SetNewProductHandler.php" />
+        <option value="$PROJECT_DIR$/tests/Application/Command/Product/SetNewProductHandlerTest.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ProductController.php" />
+        <option value="$PROJECT_DIR$/src/Application/Mail/SwiftMailerSender.php" />
+        <option value="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" />
+        <option value="$PROJECT_DIR$/tests/Application/Mail/SwiftMailerSenderTest.php" />
+        <option value="$PROJECT_DIR$/config/packages/test/security.yaml" />
+        <option value="$PROJECT_DIR$/phpunit.xml.dist" />
+        <option value="$PROJECT_DIR$/tests/Controller/ProductAddControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/Controller/ProductListControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/Controller/ProductControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/Form/ProductTypeTest.php" />
+        <option value="$PROJECT_DIR$/.env.dist" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -19,12 +139,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-332" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="x" value="-1440" />
+    <option name="y" value="-426" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -41,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -56,7 +178,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -66,7 +187,19 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.phpunit" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Application" />
+      <recent name="$PROJECT_DIR$/src/Application" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/packages/test" />
+      <recent name="$PROJECT_DIR$/src/Domain" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,42 +213,215 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="PHPUnit.tests">
+    <configuration default="false" name="ProductControllerTest.testAddProductUnauthorized" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Controller\ProductControllerTest" file="$PROJECT_DIR$/tests/Controller/ProductControllerTest.php" method="testAddProductUnauthorized" scope="Method" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProductControllerTest.testAddProductAuthorized" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Controller\ProductControllerTest" file="$PROJECT_DIR$/tests/Controller/ProductControllerTest.php" method="testAddProductAuthorized" scope="Method" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProductListControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Controller\ProductListControllerTest" file="$PROJECT_DIR$/tests/Controller/ProductControllerTest.php" scope="Class" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProductTypeTest.testAddProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Infrastructure\ProductTypeTest" file="$PROJECT_DIR$/tests/Form/ProductTypeTest.php" method="testAddProduct" scope="Method" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/tests" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.ProductControllerTest.testAddProductUnauthorized" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.ProductControllerTest.testAddProductAuthorized" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.ProductListControllerTest" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.ProductTypeTest.testAddProduct" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.tests" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.tests" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.ProductTypeTest.testAddProduct" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.ProductListControllerTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.ProductControllerTest.testAddProductAuthorized" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.ProductControllerTest.testAddProductUnauthorized" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="da529a32-1c55-41bb-9c5b-6be010c15ce5" name="Default" comment="" />
+      <changelist id="12465c8d-85d9-467a-b94f-aba6887c2f30" name="Default" comment="Tests" />
       <created>1517686342215</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517686342215</updated>
       <workItem from="1517686344147" duration="818000" />
+      <workItem from="1517902655960" duration="205000" />
+      <workItem from="1517942994052" duration="11162000" />
+      <workItem from="1518029079283" duration="5671000" />
+      <workItem from="1518100455849" duration="3537000" />
+      <workItem from="1518277119759" duration="772000" />
     </task>
+    <task id="LOCAL-00001" summary="Login user">
+      <created>1517852758000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517852758000</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add product">
+      <created>1517989015755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517989015757</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Send mail">
+      <created>1518032362431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518032362431</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tests">
+      <created>1518116893041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518116893042</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ProductTypeTest_testAddProduct - 2018.02.08 at 19h 59m 10s.xml">
+      <configuration name="ProductTypeTest.testAddProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductTypeTest_testAddProduct - 2018.02.08 at 20h 00m 05s.xml">
+      <configuration name="ProductTypeTest.testAddProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductTypeTest_testAddProduct - 2018.02.08 at 20h 02m 30s.xml">
+      <configuration name="ProductTypeTest.testAddProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductTypeTest_testAddProduct - 2018.02.08 at 20h 02m 40s.xml">
+      <configuration name="ProductTypeTest.testAddProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductTypeTest_testAddProduct - 2018.02.08 at 20h 04m 20s.xml">
+      <configuration name="ProductTypeTest.testAddProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductTypeTest_testAddProduct - 2018.02.08 at 20h 04m 34s.xml">
+      <configuration name="ProductTypeTest.testAddProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductTypeTest_testAddProduct - 2018.02.08 at 20h 05m 18s.xml">
+      <configuration name="ProductTypeTest.testAddProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductTypeTest_testAddProduct - 2018.02.08 at 20h 06m 30s.xml">
+      <configuration name="ProductTypeTest.testAddProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ProductTypeTest_testAddProduct - 2018.02.08 at 20h 06m 45s.xml">
+      <configuration name="ProductTypeTest.testAddProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2018.02.10 at 16h 50m 14s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="818000" />
+    <option name="totallyTimeSpent" value="33908000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-332" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="-1440" y="-426" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.4914163" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992095" sideWeight="0.5114449" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25559947" sideWeight="0.4914163" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37022397" sideWeight="0.48855507" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -125,8 +431,167 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login user" />
+    <MESSAGE value="Add product" />
+    <MESSAGE value="Send mail" />
+    <MESSAGE value="Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Application/Mail/SwiftMailerSenderTest.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Application/Mail/SwiftMailerSenderTest.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Application/Mail/SwiftMailerSender.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Application/Mail/SwiftMailerSender.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Application/Command/Product/SetNewProductHandler.php</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Application/Command/Product/SetNewProductHandler.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Controller/ProductControllerTest.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Controller/ProductControllerTest.php</url>
+          <line>57</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Controller/ProductControllerTest.php</url>
+          <line>68</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/ProductController.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Controller/ProductControllerTest.php</url>
+          <line>66</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="31" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/Application/Query/ProductsList/DoctrineProductsListQueryTest.php" />
+    <entry file="file://$PROJECT_DIR$/tests/Application/Command/Product/SetNewProductTest.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/form/Extension/Core/Type/MoneyType.php" />
+    <entry file="file://$PROJECT_DIR$/tests/Domain/ProductTest.php" />
+    <entry file="file://$PROJECT_DIR$/src/Application/Command/Product/SetNewProduct.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/Type.php" />
+    <entry file="file://$PROJECT_DIR$/src/Entity/Product.orm.yml" />
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure/DoctrineProducts.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/validator/Constraints/Uuid.php" />
+    <entry file="file://$PROJECT_DIR$/src/Domain/Product.orm.yml" />
+    <entry file="file://$PROJECT_DIR$/config/packages/test/framework.yaml" />
+    <entry file="file://$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" />
+    <entry file="file://$PROJECT_DIR$/config/packages/swiftmailer.yaml" />
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension.php" />
+    <entry file="file://$PROJECT_DIR$/templates/mail/addProduct.html.twig" />
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php" />
+    <entry file="file://$PROJECT_DIR$/src/Application/Mail/SenderInterface.php" />
+    <entry file="file://$PROJECT_DIR$/src/Application/Mail/SwiftMailerSender.php" />
+    <entry file="file://$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" />
+    <entry file="file://$PROJECT_DIR$/src/Application/Command/Product/SetNewProductHandler.php" />
+    <entry file="file://$PROJECT_DIR$/tests/Application/Mail/SwiftMailerSenderTest.php" />
+    <entry file="file://$PROJECT_DIR$/tests/Application/Command/Product/SetNewProductHandlerTest.php" />
+    <entry file="file://$PROJECT_DIR$/var/cache/test/ContainerBKxxJqK/Paginator_1f56f94.php" />
+    <entry file="file://$PROJECT_DIR$/config/packages/prod/doctrine.yaml" />
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml" />
+    <entry file="file://$PROJECT_DIR$/config/packages/test/doctrine.yaml" />
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/HttpKernel.php" />
+    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml" />
+    <entry file="file://$PROJECT_DIR$/config/packages/test/security.yaml" />
+    <entry file="file://$PROJECT_DIR$/config/services.yaml" />
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Test/WebTestCase.php" />
+    <entry file="file://$PROJECT_DIR$/src/Domain/Product.php" />
+    <entry file="file://$PROJECT_DIR$/tests/Infrastructure/DoctrineProductsTest.php" />
+    <entry file="file://$PROJECT_DIR$/tests/Controller/ProductControllerTest.php" />
+    <entry file="file://$PROJECT_DIR$/src/Entity/Product.php" />
+    <entry file="file://$USER_HOME$/.composer/vendor/phpunit/phpunit/src/Framework/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="1063" column="34" lean-forward="false" selection-start-line="1063" selection-start-column="34" selection-end-line="1063" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/form/Form.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="420" column="9" lean-forward="false" selection-start-line="420" selection-start-column="9" selection-end-line="420" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/ProductType.php" />
+    <entry file="file://$PROJECT_DIR$/tests/Controller/ProductAddControllerTest.php" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/ProductController.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/form/FormInterface.php" />
+    <entry file="file://$PROJECT_DIR$/tests/Form/ProductTypeTest.php" />
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

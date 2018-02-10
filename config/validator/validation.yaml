@@ -1,0 +1,9 @@
+App\Entity\Product:
+    properties:
+        name:
+            - NotBlank: ~
+        description:
+            - NotBlank: ~
+            - App\Validator\Constraints\DescriptionLength: ~
+        price:
+            - NotBlank: ~

@@ -1,7 +1,8 @@
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
-
+    locale: 'pl'
+    locale_name: 'pl_PL'
 services:
     # default configuration for services in *this* file
     _defaults:
@@ -23,5 +24,38 @@ services:
         resource: '../src/Controller'
         tags: ['controller.service_arguments']
 
-    # add more service definitions when explicit configuration is needed
-    # please note that last definitions always *replace* previous ones
+    products.list.query.doctrine:
+        class: App\Application\Query\ProductsList\DoctrineProductsListQuery
+        public: false
+        arguments:
+            - '@product.repository'
+
+    products.list.query:
+        alias: products.list.query.doctrine
+        public: true
+
+    product.repository:
+        class: App\Repository\ProductRepository
+        arguments:
+            - '@doctrine'
+
+    doctine.products:
+        class: App\Infrastructure\DoctrineProducts
+        arguments:
+            - '@doctrine.orm.default_entity_manager'
+
+    set.new_product.handler:
+        class: App\Application\Command\Product\SetNewProductHandler
+        arguments:
+            - '@doctine.products'
+            - '@swiftmailer.sender'
+            - '%locale_name%'
+        tags:
+            - { name: 'command_handler', handles: App\Application\Command\Product\SetNewProduct }
+        public: true
+
+    swiftmailer.sender:
+        class: App\Application\Mail\SwiftMailerSender
+        arguments:
+            - '@swiftmailer.mailer'
+            - '@twig'
