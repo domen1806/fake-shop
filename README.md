@@ -15,3 +15,7 @@ Fake Shop to prosty sklep napisany we frameworku Symfony 4. Uwaga skupiona zosta
 - `php71-mongodb`
 - `php71-intl`
 - `phpunit`
+
+### Update (dane logowania):
+Nazwa użytkownika: *Dominik*
+Hasło: *passwordReallyHardToGuess*
